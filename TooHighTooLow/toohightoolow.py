@@ -1,11 +1,8 @@
-import random
-
 # a simple high low number guessing game.
 #
 class too_high_too_low:
     def __init__(self):
         # setup self.number to be a random number from 1 to 100
-        self.number=random.randint(1,100)
         # self.guesses to be zero
         self.guesses=0
         pass
@@ -37,7 +34,8 @@ class too_high_too_low:
                 print(f"You're out of guesses, Friend. :( The number was {self.number}")
                 break
             # If so, print a message saying they've run out of guesses and reveal the number
-            # Exit the loopi
+            # Exit the loop
+
 
 def main():
     game = too_high_too_low()
