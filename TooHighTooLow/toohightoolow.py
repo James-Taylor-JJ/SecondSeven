@@ -1,8 +1,11 @@
+import random
+
 # a simple high low number guessing game.
 #
 class too_high_too_low:
     def __init__(self):
         # setup self.number to be a random number from 1 to 100
+        self.number = random.randint(1, 100)
         # self.guesses to be zero
         self.guesses=0
         pass
